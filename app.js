@@ -53,3 +53,5 @@ res.json(results)
 app.listen(5000, () => {
     console.log('Server started on PORT 5000');
   });
+
+  module.exports = app;
